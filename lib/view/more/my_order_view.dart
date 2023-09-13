@@ -10,11 +10,24 @@ class MyOrderView extends StatefulWidget {
 
 class _MyOrderViewState extends State<MyOrderView> {
   List itemArr = [
-    {"name": "Beef Burger", "qty": "1", "price": 16.0},
-    {"name": "Classic Burger", "qty": "1", "price": 14.0},
-    {"name": "Cheese Chicken Burger", "qty": "1", "price": 17.0},
-    {"name": "Chicken Legs Basket", "qty": "1", "price": 15.0},
-    {"name": "French Fires Large", "qty": "1", "price": 6.0}
+    {"name": "Mens Fur Leather Jacket Coat Black", "qty": "1", "price": 169.0},
+    {"name": "Mens Angel Wings Leather Vest", "qty": "1", "price": 109.0},
+    {
+      "name": "Fringed Native Cowgirl Brown Suede Leather Jacket.",
+      "qty": "1",
+      "price": 134.0
+    },
+    {
+      "name":
+          "Top Pilot Maverick Flight Patches Lightweight Polyester Green Bomber Jacket For Men",
+      "qty": "1",
+      "price": 94.0
+    },
+    {
+      "name": "Womens Birds of Joker Quinn Funky Spiked Biker",
+      "qty": "1",
+      "price": 124.0
+    }
   ];
 
   @override
@@ -62,9 +75,9 @@ class _MyOrderViewState extends State<MyOrderView> {
                 child: Row(
                   children: [
                     ClipRRect(
-                        borderRadius: BorderRadius.circular(15),
+                        borderRadius: BorderRadius.circular(5),
                         child: Image.asset(
-                          "assets/img/shop_logo.png",
+                          "assets/img/logo_black.jpeg",
                           width: 80,
                           height: 80,
                           fit: BoxFit.cover,
@@ -77,7 +90,7 @@ class _MyOrderViewState extends State<MyOrderView> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            "King Burgers",
+                            "BrixWear",
                             textAlign: TextAlign.center,
                             style: TextStyle(
                                 color: TColor.primaryText,
@@ -123,7 +136,7 @@ class _MyOrderViewState extends State<MyOrderView> {
                             mainAxisAlignment: MainAxisAlignment.start,
                             children: [
                               Text(
-                                "Burger",
+                                "Jackets | Coats",
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                     color: TColor.secondaryText, fontSize: 12),
@@ -135,7 +148,7 @@ class _MyOrderViewState extends State<MyOrderView> {
                                     color: TColor.primary, fontSize: 12),
                               ),
                               Text(
-                                "Western Food",
+                                "Made in Pakistan",
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                     color: TColor.secondaryText, fontSize: 12),
@@ -271,7 +284,7 @@ class _MyOrderViewState extends State<MyOrderView> {
                               fontWeight: FontWeight.w700),
                         ),
                         Text(
-                          "\$68",
+                          "\$630",
                           style: TextStyle(
                               color: TColor.primary,
                               fontSize: 13,
@@ -294,7 +307,7 @@ class _MyOrderViewState extends State<MyOrderView> {
                               fontWeight: FontWeight.w700),
                         ),
                         Text(
-                          "\$2",
+                          "\$12",
                           style: TextStyle(
                               color: TColor.primary,
                               fontSize: 13,
@@ -324,7 +337,7 @@ class _MyOrderViewState extends State<MyOrderView> {
                               fontWeight: FontWeight.w700),
                         ),
                         Text(
-                          "\$70",
+                          "\$642",
                           style: TextStyle(
                               color: TColor.primary,
                               fontSize: 22,

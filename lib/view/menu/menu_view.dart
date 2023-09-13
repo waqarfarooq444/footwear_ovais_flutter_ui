@@ -15,23 +15,23 @@ class MenuView extends StatefulWidget {
 class _MenuViewState extends State<MenuView> {
   List menuArr = [
     {
-      "name": "Food",
-      "image": "assets/img/menu_1.png",
+      "name": "Fur Lined Leather",
+      "image": "assets/img/fur_lined_leather.png",
       "items_count": "120",
     },
     {
-      "name": "Beverages",
-      "image": "assets/img/menu_2.png",
+      "name": "Ladies Sheepskin",
+      "image": "assets/img/khatoon.jpg",
       "items_count": "220",
     },
     {
-      "name": "Desserts",
-      "image": "assets/img/menu_3.png",
+      "name": "Cow Boy Pilot",
+      "image": "assets/img/pilot.jpg",
       "items_count": "155",
     },
     {
       "name": "Promotions",
-      "image": "assets/img/menu_4.png",
+      "image": "assets/img/promotions.png",
       "items_count": "25",
     },
   ];
@@ -69,7 +69,7 @@ class _MenuViewState extends State<MenuView> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          "Menu",
+                          "BrixWear",
                           style: TextStyle(
                               color: TColor.primaryText,
                               fontSize: 20,

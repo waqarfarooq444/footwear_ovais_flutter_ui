@@ -16,21 +16,21 @@ class _OnBoardingViewState extends State<OnBoardingView> {
 
   List pageArr = [
     {
-      "title": "Find Food You Love",
+      "title": "Winter Style, Celeb Vibe",
       "subtitle":
-          "Discover the best foods from over 1,000\nrestaurants and fast delivery to your\ndoorstep",
-      "image": "assets/img/on_boarding_1.png",
+          "Explore top-notch jackets with diverse choices\nin material, colors, size with customization,\nall swiftly delivered to your doorstep.",
+      "image": "assets/img/logo_white.jpg",
     },
     {
       "title": "Fast Delivery",
-      "subtitle": "Fast food delivery to your home, office\n wherever you are",
-      "image": "assets/img/on_boarding_2.png",
+      "subtitle": "Fast home delivery, office\n wherever you are",
+      "image": "assets/img/delivery.png",
     },
     {
-      "title": "Live Tracking",
+      "title": "Bulk Byuing",
       "subtitle":
-          "Real time tracking of your food on the app\nonce you placed the order",
-      "image": "assets/img/on_boarding_3.png",
+          "Save 10% on Amazon's Brixwear shelf \nwhen you buy a dozen items through our app.",
+      "image": "assets/img/amazone.png",
     },
   ];
 
